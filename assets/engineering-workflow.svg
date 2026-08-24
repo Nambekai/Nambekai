@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="title description">
+  <title id="title">Engineering Workflow</title>
+  <desc id="description">An animated four-stage engineering workflow: observe, model, validate, and communicate.</desc>
+  <rect width="1200" height="240" rx="18" fill="#0B1F33" />
+  <text x="600" y="46" fill="#F4EFE6" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-weight="700" text-anchor="middle" letter-spacing="2">ENGINEERING WORKFLOW</text>
+
+  <g opacity="0.72">
+    <rect x="45" y="78" width="250" height="112" rx="10" fill="#132C46" stroke="#C7A75B" stroke-width="2" />
+    <text x="170" y="124" fill="#F4EFE6" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="middle">OBSERVE</text>
+    <text x="170" y="158" fill="#D8DEE7" font-family="Arial, Helvetica, sans-serif" font-size="17" text-anchor="middle">Measure systems</text>
+    <animate attributeName="opacity" values="0.72;1;0.72;0.72;0.72" keyTimes="0;0.08;0.20;0.60;1" dur="8s" repeatCount="indefinite" />
+  </g>
+
+  <g opacity="0.72">
+    <rect x="332" y="78" width="250" height="112" rx="10" fill="#132C46" stroke="#C7A75B" stroke-width="2" />
+    <text x="457" y="124" fill="#F4EFE6" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="middle">MODEL</text>
+    <text x="457" y="158" fill="#D8DEE7" font-family="Arial, Helvetica, sans-serif" font-size="17" text-anchor="middle">Build methods</text>
+    <animate attributeName="opacity" values="0.72;0.72;1;0.72;0.72" keyTimes="0;0.20;0.33;0.48;1" dur="8s" repeatCount="indefinite" />
+  </g>
+
+  <g opacity="0.72">
+    <rect x="619" y="78" width="250" height="112" rx="10" fill="#132C46" stroke="#C7A75B" stroke-width="2" />
+    <text x="744" y="124" fill="#F4EFE6" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="middle">VALIDATE</text>
+    <text x="744" y="158" fill="#D8DEE7" font-family="Arial, Helvetica, sans-serif" font-size="17" text-anchor="middle">Test evidence</text>
+    <animate attributeName="opacity" values="0.72;0.72;1;0.72;0.72" keyTimes="0;0.45;0.58;0.73;1" dur="8s" repeatCount="indefinite" />
+  </g>
+
+  <g opacity="0.72">
+    <rect x="906" y="78" width="250" height="112" rx="10" fill="#132C46" stroke="#C7A75B" stroke-width="2" />
+    <text x="1031" y="124" fill="#F4EFE6" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="middle">COMMUNICATE</text>
+    <text x="1031" y="158" fill="#D8DEE7" font-family="Arial, Helvetica, sans-serif" font-size="17" text-anchor="middle">Share clearly</text>
+    <animate attributeName="opacity" values="0.72;0.72;1;0.72;0.72" keyTimes="0;0.70;0.83;0.96;1" dur="8s" repeatCount="indefinite" />
+  </g>
+</svg>
