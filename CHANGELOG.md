@@ -2,6 +2,13 @@
 
 All notable changes to this profile are documented here.
 
+## [1.1.0] - 2026-08-24
+
+### Added
+
+- Featured YOLO11 dangerous-person detection thesis project.
+- Linked project banner, held-out test summary, release access, and responsible-use notice.
+
 ## [1.0.0] - 2026-08-24
 
 ### Added

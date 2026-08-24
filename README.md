@@ -51,6 +51,27 @@ I am a senior undergraduate in Electronics and Telecommunications Engineering at
   <img src="https://img.shields.io/badge/Foundation-Telecommunications-A67C00?style=for-the-badge" alt="Telecommunications foundation" />
 </p>
 
+## Featured Project
+
+<p align="center">
+  <a href="https://github.com/Nambekai/dangerous-person-detection-yolo11"><img src="https://raw.githubusercontent.com/Nambekai/dangerous-person-detection-yolo11/main/assets/project-banner.svg" width="100%" alt="YOLO11 dangerous-person detection thesis project" /></a>
+</p>
+
+### YOLO11 Dangerous-Person Detection in Public Areas
+
+A responsible computer-vision research prototype that identifies people associated with potentially dangerous objects in public-area imagery. The repository presents the thesis evidence, held-out test results, reproducibility guidance, documented limitations, and versioned research artifacts.
+
+| Dataset | Instances | Selected model | Held-out test result |
+| --- | --- | --- | --- |
+| 3,140 images | 10,595 labeled people | YOLO11s | mAP50 0.80; mAP50-95 0.64 |
+
+<p align="center">
+  <a href="https://github.com/Nambekai/dangerous-person-detection-yolo11"><img src="https://img.shields.io/badge/View-Repository-0B1F33?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="View the project repository" /></a>
+  <a href="https://github.com/Nambekai/dangerous-person-detection-yolo11/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/Download-v1.0.0-8C1D40?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Download the version 1.0.0 research artifacts" /></a>
+</p>
+
+This prototype supports human review; it must not be used as proof of identity, intent, guilt, or future behavior.
+
 ## Engineering Method
 
 <p align="center">
