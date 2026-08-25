@@ -1,0 +1,29 @@
+name: Profile Quality
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Set up Typst
+        uses: typst-community/setup-typst@v4
+        with:
+          typst-version: "0.14.2"
+      - name: Validate profile content and assets
+        run: python scripts/validate_profile.py
+      - name: Compile the ATS-friendly resume
+        run: typst compile resume/Tran-Si-Nam-Resume.typ /tmp/Tran-Si-Nam-Resume.pdf

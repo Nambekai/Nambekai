@@ -19,6 +19,14 @@ This guide explains how to maintain the `Nambekai/Nambekai` GitHub profile repos
 
 ## 3. Review Before Publishing
 
+Compile and validate the resume before reviewing the Git diff:
+
+```powershell
+typstyle --check resume/Tran-Si-Nam-Resume.typ
+typst compile resume/Tran-Si-Nam-Resume.typ resume/Tran-Si-Nam-Resume.pdf
+python scripts/validate_profile.py
+```
+
 ```powershell
 git status --short
 git diff --check
@@ -32,6 +40,8 @@ Confirm the following:
 - External links use HTTPS, except for `mailto:` and `tel:` links.
 - SVG text contains plain English and does not overlap its containers.
 - No password, access token, private key, student record, or confidential document is staged.
+- The resume remains one page and its extracted text follows the intended reading order.
+- Every resume claim is supported by the thesis, repository, or confirmed profile data.
 
 ## 4. Commit and Push
 
@@ -77,10 +87,14 @@ gh api graphql -f query=$query -f message=$statusMessage
 Update `CHANGELOG.md`, commit the change, and then run:
 
 ```powershell
-gh release create v1.1.0 --title "Professional Profile v1.1.0" --notes-file CHANGELOG.md
+gh release create v1.2.0 --title "Professional Profile v1.2.0" --notes-file docs/RELEASE_NOTES_v1.2.0.md
 ```
 
 Use semantic versioning: major versions for substantial restructuring, minor versions for new profile sections or assets, and patch versions for corrections.
+
+## 8. Synchronize LinkedIn
+
+Use [`LINKEDIN-PROFILE.md`](./LINKEDIN-PROFILE.md) as the approved source for the LinkedIn headline, About section, project description, Featured links, and skills. Keep LinkedIn, the resume, GitHub profile, and repository metrics consistent. Do not add an employer, certification, award, language level, grade, or project that cannot be verified.
 
 ## Frequently Asked Questions
 

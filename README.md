@@ -20,12 +20,15 @@
   <a href="mailto:nambekai123@gmail.com"><img src="https://img.shields.io/badge/Email-Work_Contact-8C1D40?style=flat-square&amp;logo=gmail&amp;logoColor=white" alt="Work email" /></a>
   <a href="mailto:22207062@student.hcmus.edu.vn"><img src="https://img.shields.io/badge/Email-Academic_Contact-0B1F33?style=flat-square&amp;logo=gmail&amp;logoColor=white" alt="Academic email" /></a>
   <a href="https://github.com/Nambekai"><img src="https://img.shields.io/badge/GitHub-Nambekai-181717?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub profile" /></a>
+  <a href="./resume/Tran-Si-Nam-Resume.pdf"><img src="https://img.shields.io/badge/Resume-Download_PDF-8C1D40?style=flat-square&amp;logo=adobeacrobatreader&amp;logoColor=white" alt="Download the ATS-friendly resume PDF" /></a>
   <img src="https://komarev.com/ghpvc/?username=Nambekai&amp;label=Profile+Views&amp;color=0B1F33&amp;style=flat-square" alt="Profile views counter" />
 </p>
 
 ## About
 
 I am a senior undergraduate in Electronics and Telecommunications Engineering at the Faculty of Electronics and Telecommunications, University of Science, Viet Nam National University Ho Chi Minh City (VNUHCM-US). My current work centers on computer vision and machine learning, supported by coursework in computer networks and telecommunications. I value careful experimentation, reproducible results, and clear technical communication.
+
+I defended my undergraduate thesis on August 15, 2026, and I am open to internship opportunities in computer vision, machine learning, computer networks, network communications, and telecommunications.
 
 | Profile | Details |
 | --- | --- |
@@ -50,6 +53,18 @@ I am a senior undergraduate in Electronics and Telecommunications Engineering at
   <img src="https://img.shields.io/badge/Foundation-Computer_Networks-30475E?style=for-the-badge" alt="Computer networks foundation" />
   <img src="https://img.shields.io/badge/Foundation-Telecommunications-A67C00?style=for-the-badge" alt="Telecommunications foundation" />
 </p>
+
+## Resume
+
+My one-page resume uses a simple, single-column Typst layout designed for applicant tracking systems and internship applications. It includes only skills, dates, project details, tools, and quantitative results supported by the thesis and public repository.
+
+<p align="center">
+  <a href="./resume/Tran-Si-Nam-Resume.pdf"><img src="https://img.shields.io/badge/Download-Resume_PDF-8C1D40?style=for-the-badge&amp;logo=adobeacrobatreader&amp;logoColor=white" alt="Download Tran Si Nam resume PDF" /></a>
+  <a href="./resume/Tran-Si-Nam-Resume.typ"><img src="https://img.shields.io/badge/View-Typst_Source-0B1F33?style=for-the-badge" alt="View the resume Typst source" /></a>
+  <a href="https://github.com/Nambekai/Nambekai/actions/workflows/profile-quality.yml"><img src="https://github.com/Nambekai/Nambekai/actions/workflows/profile-quality.yml/badge.svg" alt="Profile quality workflow status" /></a>
+</p>
+
+Last updated: August 25, 2026.
 
 ## Featured Project
 
