@@ -87,7 +87,7 @@ gh api graphql -f query=$query -f message=$statusMessage
 Update `CHANGELOG.md`, commit the change, and then run:
 
 ```powershell
-gh release create v1.3.0 --title "Professional Profile v1.3.0" --notes-file docs/RELEASE_NOTES_v1.3.0.md
+gh release create v1.4.0 --title "Professional Profile v1.4.0" --notes-file docs/RELEASE_NOTES_v1.4.0.md
 ```
 
 Use semantic versioning: major versions for substantial restructuring, minor versions for new profile sections or assets, and patch versions for corrections.

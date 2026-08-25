@@ -19,6 +19,7 @@ REQUIRED_FILES = (
     ROOT / "resume" / "Tran-Si-Nam-Resume.typ",
     ROOT / "resume" / "Tran-Si-Nam-Resume.pdf",
     ROOT / "docs" / "LINKEDIN-PROFILE.md",
+    ROOT / "docs" / "ALPR-REPOSITORY-RECOVERY.md",
     ROOT / "projects" / "vietnamese-alpr-yolo-ocr.md",
 )
 
@@ -102,6 +103,35 @@ def validate_public_contacts() -> None:
         fail(f"Missing public contact links: {', '.join(missing)}")
 
 
+def validate_alpr_attribution() -> None:
+    current_files = (
+        README,
+        ROOT / "resume" / "Tran-Si-Nam-Resume.typ",
+        ROOT / "docs" / "LINKEDIN-PROFILE.md",
+        ROOT / "projects" / "vietnamese-alpr-yolo-ocr.md",
+    )
+    combined = "\n".join(path.read_text(encoding="utf-8") for path in current_files)
+    required = (
+        "https://github.com/lhlizdabezt/NhapMonAI",
+        "YOLO-format",
+        "FFmpeg",
+        "team",
+    )
+    missing = [item for item in required if item not in combined]
+    if missing:
+        fail(f"Missing verified ALPR attribution evidence: {', '.join(missing)}")
+
+    forbidden = (
+        "Co-developed the Python desktop inference",
+        "desktop and LAN demo co-development",
+        "Maintained repository structure",
+        "repository and release packaging |",
+    )
+    present = [item for item in forbidden if item in combined]
+    if present:
+        fail(f"Unsupported ALPR attribution remains: {', '.join(present)}")
+
+
 def main() -> None:
     validate_required_files()
     validate_local_references()
@@ -109,6 +139,7 @@ def main() -> None:
     validate_svg_files()
     validate_resume_pdf()
     validate_public_contacts()
+    validate_alpr_attribution()
     print("Profile validation passed.")
 
 

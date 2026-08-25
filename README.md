@@ -100,13 +100,14 @@ A seven-person Introduction to Artificial Intelligence course project developed 
 
 | Team | My confirmed responsibilities | Team-reported validation results | Scope |
 | --- | --- | --- | --- |
-| Seven students | Data collection, bounding-box annotation, FFmpeg media preparation, desktop and LAN demo co-development, repository and release packaging | mAP50 99.45%; precision 99.45%; recall 99.37% | Academic dataset and LAN prototype |
+| Seven students | Dataset and YOLO-label review, data-configuration checks, multi-format FFmpeg and annotated-output testing, and error-case validation | Precision 99.45%; recall 99.37%; mAP50 99.45%; mAP50-95 77.01% | Academic dataset and LAN prototype |
 
 <p align="center">
+  <a href="https://github.com/lhlizdabezt/NhapMonAI"><img src="https://img.shields.io/badge/View-Team_Repository-8C1D40?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="View the Vietnamese ALPR team repository" /></a>
   <a href="./projects/vietnamese-alpr-yolo-ocr.md"><img src="https://img.shields.io/badge/View-Project_Case_Study-0B1F33?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="View the Vietnamese ALPR project case study" /></a>
 </p>
 
-The prototype was not validated for production traffic enforcement or unattended access control.
+The original team-repository URL is retained while it is being restored; the case study remains available as the stable reviewer link. The prototype was not validated for production traffic enforcement or unattended access control.
 
 ## Engineering Method
 

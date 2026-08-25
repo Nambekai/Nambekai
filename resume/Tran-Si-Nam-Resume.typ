@@ -1,5 +1,6 @@
 // ATS-friendly resume for Tran Si Nam.
 // The compact single-column structure is inspired by skyzh/chicv (CC0-1.0).
+// ALPR responsibilities were verified against the Group 05 work-allocation report.
 
 #set document(
   title: "Tran Si Nam - Resume",
@@ -98,7 +99,7 @@
 
 #section("Professional Summary")
 
-Senior Electronics and Telecommunications Engineering student with academic project experience in computer vision, deep learning, object detection, OCR, dataset curation, image and video preprocessing, model evaluation, LAN prototypes, and reproducible technical documentation. Contributed to a team-built Vietnamese license-plate recognition pipeline and completed a YOLO11 graduation thesis. Seeking internships in computer vision, machine learning, computer networks, or telecommunications.
+Senior Electronics and Telecommunications Engineering student with academic project experience in computer vision, deep learning, object detection, OCR, dataset quality review, image and video testing, model evaluation, LAN prototype testing, and reproducible technical documentation. Contributed to a team-built Vietnamese license-plate recognition pipeline and completed a YOLO11 graduation thesis. Seeking internships in computer vision, machine learning, computer networks, or telecommunications.
 
 #section("Education")
 
@@ -115,15 +116,15 @@ Senior Electronics and Telecommunications Engineering student with academic proj
 
 #text(weight: "bold")[Programming and tools:] Python, YAML, Git, GitHub, GitHub Actions, Git LFS, Typst, Tkinter \
 #text(weight: "bold")[Machine learning and computer vision:] PyTorch, Ultralytics YOLO, OpenCV, FastALPR, fast-plate-ocr, object detection, OCR, training, inference \
-#text(weight: "bold")[Data and media:] data collection, bounding-box annotation, FFmpeg, image and video preprocessing, augmentation, Roboflow, Kaggle, Google Colab \
+#text(weight: "bold")[Data and media:] data collection, YOLO annotation review, FFmpeg, image and video preprocessing, augmentation, Roboflow, Kaggle, Google Colab \
 #text(weight: "bold")[Evaluation:] train-validation-test splits, precision, recall, F1 score, IoU, mAP50, mAP50-95, confusion matrices, error analysis \
-#text(weight: "bold")[Networks and telecommunications:] computer networks, data communications, LAN application integration, telecommunications engineering fundamentals
+#text(weight: "bold")[Networks and telecommunications:] computer networks, data communications, LAN application testing, telecommunications engineering fundamentals
 
 #section("Projects")
 
 #dated-entry(
   [Vietnamese Automatic License Plate Recognition with YOLO and OCR],
-  [Seven-person course project | Introduction to Artificial Intelligence | #link("https://github.com/Nambekai/Nambekai/blob/main/projects/vietnamese-alpr-yolo-ocr.md")[Case study]],
+  [Seven-person course project | #link("https://github.com/lhlizdabezt/NhapMonAI")[Repository] | #link("https://github.com/Nambekai/Nambekai/blob/main/projects/vietnamese-alpr-yolo-ocr.md")[Case study]],
   [Jan 2026 to Apr 2026],
 )
 #v(0.6pt)
@@ -131,9 +132,9 @@ Senior Electronics and Telecommunications Engineering student with academic proj
   size: 8.6pt,
   fill: muted,
 )[Python | Ultralytics YOLO | PyTorch | OpenCV | FastALPR | FFmpeg | Tkinter | Kaggle | Git LFS]
-- Collaborated in a seven-person team on an end-to-end pipeline that localizes Vietnamese license plates with YOLO, applies FastALPR and fast-plate-ocr, normalizes OCR text, and produces annotated image and video output for a LAN-based whitelist demo.
-- Collected and organized plate imagery, annotated license-plate bounding boxes, and used FFmpeg to extract frames and standardize media inputs for labeling, two-stage Kaggle training, and testing.
-- Co-developed the Python desktop inference application and PlateGate LAN prototype with one teammate, and maintained repository and release packaging; the team reported 99.45% mAP50, 99.45% precision, and 99.37% recall on the validation set.
+- Contributed to a seven-person, end-to-end pipeline that combines YOLO plate localization, FastALPR and fast-plate-ocr recognition, text normalization, annotated image and video output, and a LAN whitelist demonstration.
+- Reviewed train, validation, and test organization; identified anomalous images and YOLO-format labels; and cross-checked `data.yaml` paths for Kaggle reproducibility.
+- Tested multi-format video and FFmpeg workflows, annotated outputs, codecs, and failure cases involving missing models or dependencies, low light, small or tilted plates, and OCR confusions. The team reported 99.45% precision, 99.37% recall, 99.45% mAP50, and 77.01% mAP50-95 on the validation set.
 
 #dated-entry(
   [YOLO11 Dangerous-Person Detection in Public Areas],
