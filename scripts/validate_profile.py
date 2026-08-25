@@ -19,6 +19,7 @@ REQUIRED_FILES = (
     ROOT / "resume" / "Tran-Si-Nam-Resume.typ",
     ROOT / "resume" / "Tran-Si-Nam-Resume.pdf",
     ROOT / "docs" / "LINKEDIN-PROFILE.md",
+    ROOT / "projects" / "vietnamese-alpr-yolo-ocr.md",
 )
 
 

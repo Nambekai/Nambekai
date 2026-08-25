@@ -56,7 +56,7 @@ I defended my undergraduate thesis on August 15, 2026, and I am open to internsh
 
 ## Resume
 
-My one-page resume uses a simple, single-column Typst layout designed for applicant tracking systems and internship applications. It includes only skills, dates, project details, tools, and quantitative results supported by the thesis and public repository.
+My one-page resume uses a simple, single-column Typst layout designed for applicant tracking systems and internship applications. It includes only confirmed skills, dates, project responsibilities, tools, and clearly attributed quantitative results.
 
 <p align="center">
   <a href="./resume/Tran-Si-Nam-Resume.pdf"><img src="https://img.shields.io/badge/Download-Resume_PDF-8C1D40?style=for-the-badge&amp;logo=adobeacrobatreader&amp;logoColor=white" alt="Download Tran Si Nam resume PDF" /></a>
@@ -66,7 +66,7 @@ My one-page resume uses a simple, single-column Typst layout designed for applic
 
 Last updated: August 25, 2026.
 
-## Featured Project
+## Featured Projects
 
 <p align="center">
   <a href="https://github.com/Nambekai/dangerous-person-detection-yolo11"><img src="https://raw.githubusercontent.com/Nambekai/dangerous-person-detection-yolo11/main/assets/project-banner.svg" width="100%" alt="YOLO11 dangerous-person detection thesis project" /></a>
@@ -86,6 +86,27 @@ A responsible computer-vision research prototype that identifies people associat
 </p>
 
 This prototype supports human review; it must not be used as proof of identity, intent, guilt, or future behavior.
+
+### Vietnamese Automatic License Plate Recognition with YOLO and OCR
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Task-License_Plate_Recognition-0B1F33?style=for-the-badge" alt="Automatic license plate recognition task" />
+  <img src="https://img.shields.io/badge/Vision-YOLO_and_OpenCV-8C1D40?style=for-the-badge" alt="YOLO and OpenCV computer vision stack" />
+  <img src="https://img.shields.io/badge/OCR-FastALPR-30475E?style=for-the-badge" alt="FastALPR optical character recognition" />
+  <img src="https://img.shields.io/badge/Demo-LAN_PlateGate-A67C00?style=for-the-badge" alt="LAN-based PlateGate demonstration" />
+</p>
+
+A seven-person Introduction to Artificial Intelligence course project developed from January through April 2026. The pipeline uses YOLO to localize Vietnamese license plates, FastALPR and fast-plate-ocr to decode cropped plates, normalization for consistent plate strings, and annotated image or video output for a LAN-based whitelist demonstration.
+
+| Team | My confirmed responsibilities | Team-reported validation results | Scope |
+| --- | --- | --- | --- |
+| Seven students | Data collection, bounding-box annotation, FFmpeg media preparation, desktop and LAN demo co-development, repository and release packaging | mAP50 99.45%; precision 99.45%; recall 99.37% | Academic dataset and LAN prototype |
+
+<p align="center">
+  <a href="./projects/vietnamese-alpr-yolo-ocr.md"><img src="https://img.shields.io/badge/View-Project_Case_Study-0B1F33?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="View the Vietnamese ALPR project case study" /></a>
+</p>
+
+The prototype was not validated for production traffic enforcement or unattended access control.
 
 ## Engineering Method
 

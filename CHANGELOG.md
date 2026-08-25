@@ -2,6 +2,19 @@
 
 All notable changes to this profile are documented here.
 
+## [1.3.0] - 2026-08-25
+
+### Added
+
+- Vietnamese automatic license plate recognition course project to the resume, profile, and LinkedIn synchronization content.
+- Public ALPR case study documenting the seven-person team context, confirmed responsibilities, pipeline, team-reported validation results, and deployment limitations.
+
+### Changed
+
+- Corrected the graduation-thesis period to April 2026 through August 2026.
+- Expanded the ATS skills taxonomy with OCR, OpenCV, FastALPR, FFmpeg, data annotation, Kaggle, Git LFS, Tkinter, and LAN integration.
+- Kept the Featured Projects section limited to two major-aligned projects.
+
 ## [1.2.0] - 2026-08-25
 
 ### Added
